@@ -2,9 +2,9 @@ import json
 import paho.mqtt.client as mqtt
 
 # Konfigurasi broker MQTT
-BROKER = "broker.hivemq.com"  # Ganti dengan alamat broker Anda
+BROKER = "broker.emqx.io"  # Ganti dengan alamat broker Anda
 PORT = 1883
-TOPIC = "water_quality"  # Harus sesuai dengan topik yang digunakan ESP32
+TOPIC = "water_quality/ESP32_001"  # Harus sesuai dengan topik yang digunakan ESP32
 
 # Callback saat koneksi berhasil
 def on_connect(client, userdata, flags, rc):

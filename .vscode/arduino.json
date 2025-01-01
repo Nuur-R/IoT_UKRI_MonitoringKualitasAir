@@ -1,0 +1,9 @@
+{
+  "port": "",
+  "configuration": "",
+  "output": "build",
+  "board": "",
+  "programmer": "",
+  "useProgrammer": false,
+  "configurationRequired": false
+}
